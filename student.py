@@ -1,6 +1,5 @@
 """
 student.py
-Written by : Avishka Jayamanna
 Student hierarchy, enrollment, GPA, and SecureStudentRecord.
 
 """

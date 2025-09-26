@@ -1,7 +1,6 @@
 """
 person.py
-Written by : Avishka Jayamanna
-Base Person classes and Staff placeholder.
+Person classes and Staff placeholder.
 
 """
 
@@ -20,7 +19,7 @@ class Person:
     email: Optional[str]
 
     def get_responsibilities(self) -> str:
-        """Generic responsibilities (overridden in subclasses)."""
+        """Generic responsibilities - overide in subclasses."""
         return "General Responsibilties for a person."
 
     def __repr__(self) -> str:
@@ -29,7 +28,7 @@ class Person:
 
 class Staff(Person):
     """
-    Generic Staff member (non-teaching). Could be extended further.
+    Generic Staff member (non-teaching).
     """
     def __init__(self, id: Optional[int], full_name: str, email: Optional[str], position: str):
         super().__init__(id=id, full_name=full_name, email=email)

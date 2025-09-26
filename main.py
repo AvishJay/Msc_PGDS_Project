@@ -1,6 +1,6 @@
 """
 main.py
-Demo usage: seeding data, demonstrating enrollment, GPA, encapsulation, polymorphism.
+Use for: seeding data, demonstrating enrollment, GPA, encapsulation, polymorphism.
 Click Run in VS Code to execute the demo scenario automatically.
 """
 
@@ -28,7 +28,7 @@ def seed_demo():
     # Faculty
     prof = Professor(id=10, full_name="Dr. Kumara Perera", email="kumarap@nibm.com", staff_id="P1001", department="Computer Science")
     lec = Lecturer(id=11, full_name="Mr. Janith Silva", email="janiths@nibm.com", staff_id="P1002", department="Computer Science")
-    ta = TA(id=12, full_name="Sarah Silva", email="sarahs@nibm.com", staff_id="P1003", department="Computer Science", supervising_professor=prof.staff_id) # TA - Teaching Assistant
+    ta = TA(id=12, full_name="Sarah Silva", email="sarahs@nibm.com", staff_id="P1003", department="Computer Science", supervising_professor=prof.staff_id) 
 
     # Assign faculty to courses
     cs.assign_faculty("CS101", prof.staff_id)

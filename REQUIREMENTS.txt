@@ -1,0 +1,9 @@
+# Requirements for University Management System (Q1 - Programming for DS)
+
+# Python version
+python==3.11
+
+# No external libraries required, only Python standard library is used.
+# Optional (only if you want diagrams or plots):
+matplotlib==3.9.2
+graphviz==0.20.3
